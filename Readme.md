@@ -1,2 +1,2 @@
-# State Pattern
+# State.State Pattern
 **Thanachote Ngamkana 6510450411**
