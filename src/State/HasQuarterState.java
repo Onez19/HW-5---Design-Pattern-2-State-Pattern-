@@ -1,3 +1,7 @@
+/*
+ *  6510450411
+ *  Thanachote Ngamkana
+ */
 package State;
 
 import Gumball.GumballMachine;

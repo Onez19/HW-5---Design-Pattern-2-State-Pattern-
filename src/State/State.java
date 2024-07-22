@@ -1,9 +1,10 @@
-package State;
-
 /*
  *  6510450411
  *  Thanachote Ngamkana
  */
+package State;
+
+
 public interface State {
     void insertQuarter();
     void choose(String chosen);

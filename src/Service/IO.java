@@ -1,7 +1,8 @@
-package Service;/*
-*  6510450411
-*  Thanachote Ngamkana
-*/
+/*
+ *  6510450411
+ *  Thanachote Ngamkana
+ */
+package Service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
