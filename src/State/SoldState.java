@@ -1,4 +1,5 @@
 package State;
+
 import Gumball.GumballMachine;
 
 public class SoldState implements State {
@@ -11,6 +12,12 @@ public class SoldState implements State {
   @Override
   public void insertQuarter() {
     System.out.println("Please wait, we’re already giving you a gumball");
+  }
+
+
+  @Override
+  public void choose(String chosen) {
+    System.out.println("Dispensing in progress. You cannot choose a flavor now.");
   }
 
   @Override

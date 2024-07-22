@@ -15,6 +15,11 @@ public class WinnerState implements State {
   }
 
   @Override
+  public void choose(String chosen) {
+    System.out.println("Dispensing in progress. You cannot choose a flavor now.");
+  }
+
+  @Override
   public void ejectQuarter() {
     System.out.println("Sorry, you already turned the crank");
   }

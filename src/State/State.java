@@ -6,7 +6,7 @@ package State;
  */
 public interface State {
     void insertQuarter();
-//    void choose();
+    void choose(String chosen);
     void ejectQuarter();
     void turnCrank();
     void dispense();

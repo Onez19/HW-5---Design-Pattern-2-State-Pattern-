@@ -14,6 +14,11 @@ public class SoldOutState implements State{
   }
 
   @Override
+  public void choose(String chosen) {
+    System.out.println("You can't choose a flavor, the machine is sold out.");
+  }
+
+  @Override
   public void ejectQuarter() {
     System.out.println("You haven't inserted a quarter.");
   }

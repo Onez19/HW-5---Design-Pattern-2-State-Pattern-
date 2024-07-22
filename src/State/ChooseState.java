@@ -4,14 +4,13 @@ import Gumball.GumballMachine;
 
 import java.util.Random;
 
-public class HasQuarterState implements State {
+public class ChooseState implements State {
   Random randomWinner = new Random(System.currentTimeMillis());
   private final GumballMachine gumballMachine;
 
-  public HasQuarterState(GumballMachine gumballMachine) {
+  public ChooseState(GumballMachine gumballMachine) {
     this.gumballMachine = gumballMachine;
   }
-
 
   @Override
   public void insertQuarter() {
@@ -20,7 +19,8 @@ public class HasQuarterState implements State {
 
   @Override
   public void choose(String chosen) {
-    System.out.println("Dispensing in progress. You cannot choose a flavor now.");
+    System.out.println("You have chosen the flavor " + chosen);
+    gumballMachine.setFlavor(chosen);
   }
 
   @Override
