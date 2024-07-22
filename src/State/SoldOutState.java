@@ -10,7 +10,7 @@ public class SoldOutState implements State{
 
   @Override
   public void insertQuarter() {
-    System.out.println("You can't insert a quarter. The machine is sold out.");
+    System.out.println("You can't insert a quarter, The machine is sold out.");
   }
 
   @Override
